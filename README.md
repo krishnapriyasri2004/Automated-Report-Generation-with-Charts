@@ -61,35 +61,6 @@ flowchart LR
   EX  API
 \`\`\`
 
-### 1.4 Sequence Diagram
-\`\`\`mermaid
-sequenceDiagram
-  participant U as User
-  participant API as API Server
-  participant Q as Queue
-  participant ING as Ingestion
-  participant AG as Agent
-  participant DB as Postgres/Vector
-  participant CH as Charts
-  participant EX as Exporter
-  participant SL as Slack
-
-  U->>API: POST /runs (topic, audience, tone)
-  API->>Q: enqueue(runId)
-  Q->>ING: start ingestion
-  ING->>DB: store docs + embeddings
-  ING->>Q: ingestion_done(runId)
-  Q->>AG: start generation
-  AG->>DB: retrieve context (RAG)
-  AG->>CH: render charts (spec + data)
-  CH>AG: chart image URL
-  AG->>EX: assemble sections + assets
-  EX->>DB: persist artifact metadata
-  EX->>API: artifact URL
-  API->>SL: notify success/failure
-\`\`\`
-
-
 
 ## 2) Integration & Implementation
 
