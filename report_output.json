@@ -1,0 +1,70 @@
+{
+  "title": "Market Analysis Report 2025",
+  "type": "business",
+  "metadata": {
+    "generated_date": "2025-10-07 12:31:26",
+    "num_sources": 4,
+    "num_documents": 0,
+    "num_web_sources": 4,
+    "tone": "formal"
+  },
+  "sections": [
+    {
+      "title": "Executive Summary",
+      "content": "Based on the analyzed data and sources, this report provides comprehensive insights into ...",
+      "citations": [
+        "Industry Report: renewable energy market trends 2025",
+        "Market Analysis: renewable energy market trends 2025",
+        "Industry Report: AI industry growth forecast"
+      ]
+    },
+    {
+      "title": "Key Insights",
+      "content": "Analysis of the collected data reveals several critical findings:",
+      "bullet_points": [],
+      "citations": [
+        "Industry Report: renewable energy market trends 2025",
+        "Market Analysis: renewable energy market trends 2025"
+      ]
+    },
+    {
+      "title": "Risk Assessment",
+      "content": "Key risks identified in the analysis include market volatility and operational challenges related to ...",
+      "citations": []
+    },
+    {
+      "title": "Recommendations",
+      "content": "Strategic recommendations based on the analysis include implementing targeted initiatives for ...",
+      "citations": [
+        "Industry Report: renewable energy market trends 2025",
+        "Market Analysis: renewable energy market trends 2025"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "web",
+      "name": "Industry Report: renewable energy market trends 2025",
+      "url": "https://example.com/report/renewable-energy-market-trends-2025",
+      "snippet": "Comprehensive analysis of renewable energy market trends 2025 trends and market dynamics..."
+    },
+    {
+      "type": "web",
+      "name": "Market Analysis: renewable energy market trends 2025",
+      "url": "https://marketdata.com/renewable-energy-market-trends-2025",
+      "snippet": "Latest market data and insights on renewable energy market trends 2025..."
+    },
+    {
+      "type": "web",
+      "name": "Industry Report: AI industry growth forecast",
+      "url": "https://example.com/report/AI-industry-growth-forecast",
+      "snippet": "Comprehensive analysis of AI industry growth forecast trends and market dynamics..."
+    },
+    {
+      "type": "web",
+      "name": "Market Analysis: AI industry growth forecast",
+      "url": "https://marketdata.com/AI-industry-growth-forecast",
+      "snippet": "Latest market data and insights on AI industry growth forecast..."
+    }
+  ]
+}

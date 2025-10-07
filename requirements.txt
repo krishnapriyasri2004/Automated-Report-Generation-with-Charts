@@ -1,0 +1,26 @@
+# Core Libraries
+PyPDF2
+python-docx
+openpyxl
+pandas
+numpy
+
+# AI/LLM
+openai
+
+# Web Search
+requests
+beautifulsoup4
+duckduckgo-search
+
+# Visualization
+matplotlib
+seaborn
+
+# Report Generation
+reportlab
+Pillow
+
+# Utilities
+python-dotenv
+pyyaml
